@@ -1,0 +1,34 @@
+.abt1{
+    display: flex;
+    /* margin-top: 50px; */
+    gap: 10px;
+}
+
+
+.ab{
+    margin-top: 100px;
+}
+.ab2{
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+.abt2{
+    width: 517px;
+
+    span{
+        color: red;
+    }
+
+    
+
+
+}
+.abtr{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bun{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

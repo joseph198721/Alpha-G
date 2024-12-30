@@ -1,0 +1,16 @@
+
+  .past1{
+       display: flex;
+     align-items: center;
+  width: 40%;
+  padding-top: 30px;
+  margin-left: 50px;
+
+  }
+  .past2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    overflow: hidden;
+  }

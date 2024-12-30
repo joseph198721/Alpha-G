@@ -1,0 +1,51 @@
+.galleon1{
+    /* background-color: red; */
+    margin-top: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+
+    
+    
+    
+    
+}
+.gall1{
+    /* background-color: cyan; */
+    width: 45%;
+
+    span{
+        color: red;
+    }
+
+
+    .button {
+  background-color:white;
+  color: red;
+  width: 140px;
+  height: 40px;
+  outline-color: black;
+border: black;
+  
+}
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+}
+.picsholder{
+    flex-direction: column;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+    
+}
+.gabb1{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

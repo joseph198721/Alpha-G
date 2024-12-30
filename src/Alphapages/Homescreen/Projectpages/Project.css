@@ -1,0 +1,50 @@
+.pro1 {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+.arrow {
+  color: red;
+}
+.pro2 {
+  /* background-color: cyan; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 54px;
+  margin: 0;
+  padding: 0;
+}
+.pros {
+  /* background-color: yellow; */
+  padding-left: 70px;
+
+  p {
+    margin-top: -20px;
+  }
+}
+.picsh1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 20px;
+
+  img:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.219);
+  }
+}
+.picsh2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-top: 20px;
+
+  img:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.219);
+  }
+}

@@ -1,0 +1,78 @@
+.new {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.event-header{
+    text-align: center;
+}
+
+.event-header h3{
+    margin-bottom: -10px;
+}
+
+.valt{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.val1 img{
+    width: 194px;
+}
+
+.eve2 .val1, .eve2 .valt{
+    padding: 15px  ;
+}
+
+.valt h4{
+    margin-top: -2px;
+}
+
+.valt p{
+    margin: 0px;
+    width: 294px;
+    font-size: 12px;
+}
+
+.eve2{
+    /* background-color: yellow; */
+    width: 556px;   
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stat-header{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.stat{
+    /* background-color: cyan; */
+    width: 50px;
+    margin-top: 20px;
+    
+}
+
+.stat h4{
+    margin-bottom: -20px;
+}
+.stat h5{
+    color: red;
+}
+
+.event-card{ 
+    /* margin-right: 30px; */
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.event-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}

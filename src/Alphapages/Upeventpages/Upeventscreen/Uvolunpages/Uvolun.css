@@ -1,0 +1,19 @@
+.volu {
+    background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  color: white;
+  height: 300px;
+}
+.volun p{
+    text-align: center;
+    margin: 0px;
+}
+.volun h1{
+    margin: 0px;
+}

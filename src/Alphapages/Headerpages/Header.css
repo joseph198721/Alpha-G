@@ -1,0 +1,23 @@
+.logo1{
+    /* background-color: red; */
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   
+}
+.navbar{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    a{
+        text-decoration: none;
+
+    }
+    a:hover{
+        color: red;
+    }
+}
