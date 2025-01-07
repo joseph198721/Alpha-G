@@ -8,8 +8,10 @@ import Abtscree from "./Alphapages/Aboutpages/Abtscree/Abtscree";
 import Upeventscreen from "./Alphapages/Upeventpages/Upeventscreen/Upeventscreen";
 import Upcoming from "./Alphapages/Upcomingpages/Upcoming";
 import Contactscreen from "./Alphapages/Contactpages/Contactscreen/Contactscreen";
-
-
+import Ourp from "./Alphapages/Ourppages/Pheropages/Ourp";
+import Ourpscreen from "./Alphapages/Ourppages/Ourpscreenpages/Ourpscreen";
+import Joinscreen from "./Alphapages/Joinvpages/Joinscreen/Joinscreen";
+import Ggalleryscreen from "./Alphapages/Ggallerypages/Ggalleryscreen";
 
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
         <Route path="/About" element={<Abtscree />} />
         <Route path="/Upcoming" element={<Upeventscreen />} />
         <Route path="/Contact" element={<Contactscreen />} />
-        
+        <Route path="/Project" element={<Ourpscreen />} />
+        <Route path="/Joinv" element={<Joinscreen />} />
+        <Route path="/Ggallery" element={<Ggalleryscreen />} />
       </Routes>
 
       <Footer />

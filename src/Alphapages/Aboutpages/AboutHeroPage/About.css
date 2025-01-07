@@ -1,3 +1,15 @@
-.abt1{
-    overflow: hidden;
+.abtH{
+    display: flex;
+    align-items: center;
+    background-image: url("../../../Alphaimages/Aboutp.png");
+    background-size: cover;
+    height: 300px;
+
+    h3{
+        color: white;
+    }
+}
+.arrow1{
+    color: red;
+    margin-left: 100px;
 }

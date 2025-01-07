@@ -6,8 +6,9 @@ import img from "../../../Alphaimages/Aboutp.png";
 const Chero = () => {
   return (
     <div>
-      <div className="abt1">
-        <img src={img} alt="" />
+      <div className="abt">
+         <GoArrowRight className="arrow1" />
+          <h3>CONTACT US</h3>
       </div>
       <div className="get1">
         <h3>GET IN TOUCH</h3>
@@ -41,7 +42,7 @@ const Chero = () => {
         <input type="checkbox" />
         <h5>You agree with our terms and condition policy</h5>
       </div>
-      <button className="bun">Submit</button>
+      <button className="buno">Submit</button>
       
     </div>
   );

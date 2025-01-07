@@ -30,7 +30,7 @@ const Abtgall = () => {
           velit adipisci aspernatur alias quos explicabo asperiores pariatur,
           molestiae aut. Et aperiam numquam vero?
         </p>
-        <button className="bun">Read more</button>
+        <button className="bun2">Read more</button>
       </div>
     </div>
   );

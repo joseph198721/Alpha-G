@@ -1,0 +1,13 @@
+.gallery-low .lery2{
+ display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px
+    
+}
+.gallery-low{
+    background-color: black;
+    padding: 20px 0px 20px 0px;
+    margin-top: 40px;
+}

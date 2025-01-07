@@ -24,8 +24,8 @@ const Footer = () => {
           <div className="navbar1">
             <a href="">HOME</a>
             <a href="">ABOUT US</a>
-            <a href="">PROJECTS</a>
-            <a href="">BLOG</a>
+            <a href="/Joinv">VOLUNTEER</a>
+            <a href="/Ggallery">GALLERY</a>
             <a href="">OUR EXCOS</a>
           </div>
           <div className="icons">

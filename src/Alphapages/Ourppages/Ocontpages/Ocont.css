@@ -1,0 +1,35 @@
+.con1 {
+  background-color: red;
+  width: 520px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-left: 100px;
+  color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.con2 {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 100px;
+}
+.con3 {
+  /* background-color: yellow; */
+  width: 606px;
+  padding: 40px 20px 40px 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+    h4{
+        color:red;
+    }
+}
+.con{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

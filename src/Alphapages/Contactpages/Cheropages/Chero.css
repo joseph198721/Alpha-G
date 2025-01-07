@@ -1,6 +1,18 @@
 
-.abt1{
-    overflow: hidden;
+.abt{
+    display: flex;
+    align-items: center;
+    background-image: url("../../../Alphaimages/Aboutp.png");
+    background-size: cover;
+    height: 300px;
+
+    h3{
+        color: white;
+    }
+}
+.arrow1{
+    color: red;
+    margin-left: 100px;
 }
 .get1{
     display: flex;
@@ -9,8 +21,6 @@
 .for1{
     display: flex;
     width: 207px;
-    
-    
     flex-direction: column;
 }
 .for1 input{
@@ -28,6 +38,6 @@
     display: flex;
     gap: 5px;
 }
-.bun{
+.buno{
     width:460px ;
 }
