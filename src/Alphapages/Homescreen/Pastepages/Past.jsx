@@ -18,7 +18,7 @@ const Past = () => {
     <div>
       <div className="past1">
         <GoArrowRight className="arrow" />
-        <h3>OUR PROJECT</h3>
+        <h3>PAST EVENT</h3>
       </div>
       <div className="pros">
         <p>Lorem ipsum dolor sit amet.</p>

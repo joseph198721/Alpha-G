@@ -28,4 +28,42 @@ background-color: black;
     
 }
 
+@media screen and (max-width:768px){
+.gallery-row{
+    
+
+   
+    img{
+        width: 100px;
+    }
+}
+.lery1{
+    gap: 5px;
+
+}
+.lery{
+    h3{
+        font-size: 10px;
+    }
+}
+.gallery-icon{
+    /* margin-left: 0px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
     

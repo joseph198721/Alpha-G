@@ -9,19 +9,19 @@ const Ocont = () => {
           <h5>Helping out of school children</h5>
         </div>
         <div className="con1">
-          <h5>Helping out of school children</h5>
+          <h5>Fighting Disease</h5>
         </div>
         <div className="con1">
-          <h5>Helping out of school children</h5>
+          <h5>Protecting our environment</h5>
         </div>
         <div className="con1">
-          <h5>Helping out of school children</h5>
+          <h5>Promoting peace</h5>
         </div>
         <div className="con1">
-          <h5>Helping out of school children</h5>
+          <h5>Providing good water and hygiene</h5>
         </div>
         <div className="con1">
-          <h5>Helping out of school children</h5>
+          <h5>Saving mother and children</h5>
         </div>
       </div>
 

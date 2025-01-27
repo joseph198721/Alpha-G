@@ -34,3 +34,20 @@
   bottom: -750px;
   
 }
+@media screen and (max-width:768px) {
+  .Numb1{
+    width: 20%;
+    h1{
+      font-size: 20px;
+    }
+    h3{
+      font-size: 10px;
+    }
+  }
+
+.Numbb{
+  /* position: relative; */
+  bottom: -370px;
+}
+}
+

@@ -13,7 +13,7 @@ const Upcoming = () => {
         </p>
       </div>
 
-      <div className="event-row">
+      <div className="events-row">
         <div className="event-card">
           <div className="eve2">
             <div className="val1">
@@ -24,7 +24,7 @@ const Upcoming = () => {
               <h4>Valentine Dinner Party</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                fugiat vitae dicta expedita ipsa temporibus corporis odit hic
+                fugiat vitae dicta  temporibus corporis odit hic
                 tempore reprehenderit.
               </p>
 

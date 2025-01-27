@@ -48,3 +48,37 @@
     background-color: rgba(0, 0, 0, 0.219);
   }
 }
+
+@media screen and (max-width:768px){
+  .pro1{
+    h3{
+      font-size: 10px;
+    }
+  }
+  .pros{
+    width: 60%;
+    p{
+      font-size: 13px;
+      margin-top: -15px;
+    }
+  }
+
+  .picsh1{
+    
+    img{
+      width: 120px;
+    }
+  }
+    .picsh2{
+    
+    img{
+      width: 120px;
+    }
+  }
+
+
+
+
+
+
+}

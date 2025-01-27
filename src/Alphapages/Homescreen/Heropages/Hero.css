@@ -54,3 +54,27 @@ button:hover {
     height: 100%;
     width: 100%;
 }
+@media screen and (max-width:768px) {
+    .pics1{
+        background-position: center;
+        height: 400px;
+        /* position: absolute; */
+    }
+    .htext{
+       
+        h1{
+            font-size: 10px;
+        }
+        p{
+            font-size: 10px;
+        }
+        
+    }
+    button{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+
+    }
+    
+}

@@ -14,3 +14,33 @@
     gap: 15px;
     overflow: hidden;
   }
+  @media screen and (max-width:768px){
+    .past2{
+      img{
+        width: 120px;
+      }
+
+    }
+    .past1{
+      h3{
+        font-size: 10px;
+      }
+    }
+    .pros{
+      p{
+        font-size: 13px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+  }
+
+
+

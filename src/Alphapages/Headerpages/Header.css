@@ -1,5 +1,5 @@
 .logo1{
-    /* background-color: red; */
+    background-color:rgba(0, 0, 0, 0.747);
     /* width: 100px; */
     display: flex;
     align-items: center;
@@ -12,12 +12,26 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    
 
     a{
+        color: white;
         text-decoration: none;
 
     }
     a:hover{
         color: red;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar{
+        display: none;
+    }
+    .logo1{
+        width: 50%;
+        img{
+            width: 70%;
+        }
     }
 }
