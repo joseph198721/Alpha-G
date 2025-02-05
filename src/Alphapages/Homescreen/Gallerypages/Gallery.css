@@ -29,27 +29,24 @@ background-color: black;
 }
 
 @media screen and (max-width:768px){
-.gallery-row{
+.gallery-row .lery1{
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
     
 
-   
-    img{
-        width: 100px;
-    }
+ 
 }
-.lery1{
-    gap: 5px;
 
-}
+
 .lery{
     h3{
         font-size: 10px;
     }
 }
-.gallery-icon{
-    /* margin-left: 0px; */
+.lery1 img{
+    width: 300px;
 }
-
 
 
 

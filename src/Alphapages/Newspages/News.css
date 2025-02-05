@@ -51,6 +51,12 @@
 
 @media screen and (max-width:768px){
 .new1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+
   h3{
     font-size: 10px;
   }
@@ -60,8 +66,10 @@
 }
 .latest-row{
   display: flex;
+  
   flex-direction: column;
   gap: 20px;
+
   img{
     width: 60%;
   }
@@ -77,6 +85,7 @@
  }
 
 }
+
    
 
 

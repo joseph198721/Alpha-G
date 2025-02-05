@@ -13,3 +13,25 @@
     color: red;
     margin-left: 100px;
 }
+
+@media screen and (max-width:768px){
+.joy h3{
+    font-size: 13px; 
+
+    
+}
+.joy{
+    height: 100px;
+    background-position: center;
+    
+
+}
+
+
+
+
+
+
+
+
+}

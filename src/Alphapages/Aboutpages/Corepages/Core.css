@@ -22,3 +22,28 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 768px) {
+  .gallery-ico h3 {
+    font-size: 13px;
+  }
+  .miss h4 {
+    font-size: 15px;
+  }
+  .miss p {
+    font-size: 10px;
+  }
+  .miss2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .miss{
+    width: 400px;
+    /* background-color: red; */
+  }
+
+
+
+}

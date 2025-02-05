@@ -31,3 +31,40 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 768px) {
+.exc1 h3{
+    font-size: 13px;
+    margin: 0px;
+
+
+}
+.exc1 p{
+    font-size: 10px;
+    /* margin: 0px; */
+}
+.exc2 {
+    margin-top: 30px;
+    
+}
+.exc2 h4{
+    font-size: 13px;
+}
+.exc2 h6{
+    font-size: 12px;
+}
+.exc2 p{
+    font-size: 10px;
+}
+.exc3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+}

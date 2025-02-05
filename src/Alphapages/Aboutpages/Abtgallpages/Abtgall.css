@@ -33,3 +33,48 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
+
+
+@media screen and (max-width:768px) {
+    .abt1 img{
+        width: 40%;
+        
+        
+    }
+   .abt1{
+    position: relative;
+    bottom: 80px;
+    margin-left: 20px;
+   }
+
+   .ab{
+    margin-top: 30px;
+}
+.ab2{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.abt2{
+    margin-top: 20px;
+    width: 900px;
+    margin-right: 20px;
+}
+
+  .abt2 h3{
+        font-size: 13px;
+    }
+    .abt2 p{
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+

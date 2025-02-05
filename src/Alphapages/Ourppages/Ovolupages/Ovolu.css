@@ -17,3 +17,19 @@
 .one h1{
     margin: 0px;
 }
+
+@media screen and (max-width: 768px) {
+      .one h1 {
+    font-size: 13px;
+    /* margin: 0px; */
+  }
+  .one p {
+    font-size: 10px;
+    margin: -10px;
+  }
+.one{
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    
+}
+}

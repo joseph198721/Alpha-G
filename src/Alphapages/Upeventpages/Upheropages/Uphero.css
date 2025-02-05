@@ -13,3 +13,20 @@
     color: red;
     margin-left: 100px;
 }
+@media screen and (max-width: 768px) {
+    .uphe1 h3{
+    font-size: 13px; 
+
+    
+}
+.uphe1{
+    height: 100px;
+    background-position: center;
+    
+
+}
+
+
+
+
+}

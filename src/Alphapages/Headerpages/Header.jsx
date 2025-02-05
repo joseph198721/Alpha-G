@@ -1,22 +1,58 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import img from "../../Alphaimages/Alphalogo1.png";
+import { CiMenuBurger } from "react-icons/ci";
+
+
 
 
 
 const Header = () => {
+  const [isOpen, setOpen] = useState(false);
+
+  const links = [
+    {
+      route: "/",
+      name: "HOME",
+    },
+    {
+      route: "/About",
+      name: "ABOUT US",
+    },
+    {
+      route: "/Upcoming",
+      name: "UPCOMING EVENT",
+    },
+    {
+      route: "/Project",
+      name: "OUR PROJECT",
+    },
+    {
+      route: "/Contact",
+      name: "CONTACT US",
+    },
+  ];
+
   return (
     <div className="logo1">
       <img src={img} alt="" />
       <div className="navbar">
-        <a href="/">HOME</a>
-        <a href="/About">ABOUT US</a>
-        <a href="/Upcoming">UPCOMING EVENT</a>
-        <a href="/Project">OUR PROJECT</a>
-        <a href="">BLOG</a>
-        <a href="/Contact">CONTACT US</a>
+        {links.map((link) => (
+          <a href={link.route}>{link.name}</a>
+        ))}
       </div>
-    
+      <div className="dcon" onClick={() => setOpen(!isOpen)}>
+        <CiMenuBurger />
+      </div>
+      {isOpen ? (
+        <div className="sidebar">
+          {links.map((link) => (
+            <a href={link.route}>{link.name}</a>
+          ))}
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };

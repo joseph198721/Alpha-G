@@ -17,3 +17,18 @@
 .volun h1{
     margin: 0px;
 }
+@media screen and (max-width: 768px) {
+      .volu h1 {
+    font-size: 13px;
+    /* margin: 0px; */
+  }
+  .volu p {
+    font-size: 10px;
+    margin: -10px;
+  }
+.volu{
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    
+}
+}

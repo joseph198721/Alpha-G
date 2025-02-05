@@ -13,3 +13,23 @@
     color: red;
     margin-left: 100px;
 }
+@media screen and (max-width:768px){
+.opro h3{
+    font-size: 13px; 
+
+    
+}
+.opro{
+    height: 100px;
+    background-position: center;
+    
+
+}
+
+
+
+
+
+
+
+}

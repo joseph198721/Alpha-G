@@ -17,3 +17,21 @@
 .volun1 h1{
     margin: 0px;
 }
+@media screen and (max-width:768px){
+.volun1 h1 {
+    font-size: 13px;
+    /* margin: 0px; */
+  }
+  .volun1 p {
+    font-size: 10px;
+    margin: -10px;
+  }
+.volun1{
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+
+
+}

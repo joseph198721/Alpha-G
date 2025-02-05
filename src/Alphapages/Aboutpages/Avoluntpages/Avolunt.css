@@ -1,5 +1,5 @@
 .volun {
-    background-color: black;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,10 +10,28 @@
   color: white;
   height: 300px;
 }
-.volun p{
-    text-align: center;
-    margin: 0px;
+.volun p {
+  text-align: center;
+  margin: 0px;
 }
-.volun h1{
-    margin: 0px;
+.volun h1 {
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .volun h1 {
+    font-size: 13px;
+    /* margin: 0px; */
+  }
+  .volun p {
+    font-size: 10px;
+    margin: -10px;
+  }
+.volun{
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+
 }
