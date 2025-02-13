@@ -3,6 +3,7 @@
     margin-top: 800px;
     width: 100%;
     display: flex;
+    gap: 20px;
     justify-content: center;
 
 
@@ -14,7 +15,7 @@
 }
 .gall1{
     /* background-color: cyan; */
-    width: 45%;
+    width: 40%;
 
     span{
         color: red;
@@ -42,7 +43,7 @@ button:hover {
     /* background-color: yellow; */
     display: flex;
     align-items: center;
-    width: 50%;
+    /* width: 50%; */
 
     
 }
@@ -52,19 +53,25 @@ button:hover {
 @media screen and (max-width:768px) {
   .picsholder{
     img{
-      width: 80%;
+      width: 95%;
     }
 
   }
   .gall1{
+    /* padding-left: 10px; */
+    width: 100%;
   h3{
-    font-size: 10px;
+    font-size: 25px;
   }
   p{
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 .galleon1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 4px;
+  
   margin-top: 400px;
 }
 

@@ -3,7 +3,7 @@ import "./Avolunt.css"
 
 const Avolunt = () => {
   return (
-    <div className="volun">
+    <div className="voun">
       <h1>Become a Volunteer</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vel

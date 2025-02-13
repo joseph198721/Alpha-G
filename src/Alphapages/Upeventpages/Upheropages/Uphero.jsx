@@ -7,7 +7,7 @@ const Uphero = () => {
   return (
     <div>
       <div className="uphe1">
-         <GoArrowRight className="arrow1" />
+         <GoArrowRight className="arrow2" />
          <h3>OUR EVENTS</h3>
       </div>
     </div>

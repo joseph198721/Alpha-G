@@ -16,16 +16,23 @@
 
 @media screen and (max-width:768px){
 .abtH h3{
-    font-size: 13px; 
+    font-size: 25px; 
+    margin-left: -0px;
 
     
+}
+.abtH .arrow1{
+    margin-left: 10px;
 }
 .abtH{
-    height: 100px;
+    width: 100%;
+    height: 200px;
     background-position: center;
+
     
 
 }
+
 
 
 

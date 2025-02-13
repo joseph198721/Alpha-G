@@ -5,7 +5,7 @@ import img1 from "../../../../Alphaimages/valentine.png";
 const Event = () => {
   return (
     <div>
-      <div className="new">
+      <div className="jat">
         <h3>UPCOMING EVENT</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -13,8 +13,8 @@ const Event = () => {
         </p>
       </div>
       <div className="events-row">
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -51,8 +51,8 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -89,8 +89,8 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -127,8 +127,8 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -166,8 +166,8 @@ const Event = () => {
           </div>
         </div>
 
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -204,8 +204,8 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -242,8 +242,8 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>
@@ -280,8 +280,8 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="event-card">
-          <div className="eve2">
+        <div className="event-card2">
+          <div className="eve4">
             <div className="val1">
               <img src={img1} alt="" />
             </div>

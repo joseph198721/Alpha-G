@@ -20,7 +20,7 @@ const Past = () => {
         <GoArrowRight className="arrow" />
         <h3>PAST EVENT</h3>
       </div>
-      <div className="pros">
+      <div className="pastt">
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
       <div className="past2">

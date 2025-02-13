@@ -8,7 +8,7 @@ const Chero = () => {
     <div className="cont">
       <div className="cont1">
         <div className="abt">
-          <GoArrowRight className="arrow1" />
+          <GoArrowRight className="arrow5" />
           <h3>CONTACT US</h3>
         </div>
         <div className="cont2">
@@ -28,7 +28,7 @@ const Chero = () => {
             <div className="fory">
               <div className="for1">
                 <h5>Email</h5>
-                <input type="text" placeholder="Enter your phone" />
+                <input type="text" placeholder="Enter your email" />
               </div>
               <div className="for1">
                 <h5>Phone</h5>

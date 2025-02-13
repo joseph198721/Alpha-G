@@ -9,7 +9,7 @@ import cpy from "../../Alphaimages/copyright.png"
 
 const Footer = () => {
   return (
-    <div className='foot'>
+    <div className="foot">
       <div className="foo1">
         <h1>Subscribe To Our Newsletter</h1>
       </div>
@@ -17,7 +17,7 @@ const Footer = () => {
         <input type="text" placeholder="Email" />
         <button className="foo">Submit</button>
       </div>
-      <div>
+      {/* <div>
         <hr className="lin1" />
         <div className="logo">
           <img src={img} alt="" />
@@ -47,6 +47,41 @@ const Footer = () => {
         <div className='copy'>
             <img src={cpy} alt="" />
         </div>
+      </div> */}
+      <div>
+        <hr className="lin1" />
+        <div className='logo12'>
+          <div className="logo11">
+            <div className="logo">
+              <img src={img} alt="" />
+            </div>
+            <div className="navbar1">
+              <a href="">HOME</a>
+              <a href="">ABOUT US</a>
+              <a href="/Joinv">VOLUNTEER</a>
+              <a href="/gallery">GALLERY</a>
+              <a href="">OUR EXCOS</a>
+            </div>
+          </div>
+          <div className="icons">
+            <a href="">
+              <img src={img1} alt="" />
+            </a>
+            <a href="">
+              <img src={img2} alt="" />
+            </a>
+            <a href="">
+              <img src={img3} alt="" />
+            </a>
+            <a href="">
+              <img src={img4} alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr className="lin1" />
+      <div className="copy">
+        <img src={cpy} alt="" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Ourp = () => {
   return (
     <div>
         <div className='opro'>
-            <GoArrowRight className="arrow1" />
+            <GoArrowRight className="arrow3" />
             <h3>PROJECTS</h3>
         </div>
     </div>

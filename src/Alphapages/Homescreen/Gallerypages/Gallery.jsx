@@ -8,7 +8,7 @@ import img4 from "../../../Alphaimages/gall4.png"
 
 const Gallery = () => {
   return (
-    <div className="lery">
+    <div className="leryy">
       <div className="gallery-icon">
       <GoArrowRight className="arrow" />
       <h3>OUR GALLERY </h3>

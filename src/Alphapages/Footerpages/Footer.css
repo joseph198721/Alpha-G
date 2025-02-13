@@ -66,29 +66,52 @@
     margin-top: 20px;
     padding-bottom: 20px;
 }
+.logo11{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.logo12{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
 
 @media screen and (max-width:768px){
+    .foot{
+        padding-top: 50px;
+    }
 .foo1{
+    
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 .foo2{
     input{
         width: 200px;
-        height: 20px;
+        height: 30px;
+        font-size: 20px;
     }
 }
 .logo{
   
     
     img{ 
-        width: 15%;
+        width: 150px;
     }
 }
 .icons{
+    padding-bottom: 10px;
   
   
+    
     img{
         width: 20px;
         display: flex;
@@ -98,16 +121,33 @@
     }
    
 }
+.logo12{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo11{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .navbar1{
+
     display: flex;
     gap: 10px;
     
     
     a{
-        font-size: 8px;
+        font-size: 10px;
         
         
     }
+}
+.foo{
+    width: 90px;
+    height: 35px;
+    font-size: 20px;
 }
 
 

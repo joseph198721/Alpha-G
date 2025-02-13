@@ -60,9 +60,9 @@ const Jcont = () => {
             </select>
           </div>
         </div>
-        <div className="gou">
+        <div className="gudd">
           <h5>Company/Organization</h5>
-          <input type="text" placeholder="Enter your company" />
+          <input  type="text" placeholder="Enter your company" />
         </div>
         <div className="mess">
           <h5>Message</h5>

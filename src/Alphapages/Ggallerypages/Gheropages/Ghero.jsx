@@ -6,7 +6,7 @@ const Ghero = () => {
   return (
     <div>
       <div className='gatt'>
-         <GoArrowRight className="arrow1" />
+         <GoArrowRight className="arrow7" />
         <h3>GALLERY</h3>
       </div>
     </div>

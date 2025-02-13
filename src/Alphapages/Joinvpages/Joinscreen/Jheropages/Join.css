@@ -9,22 +9,28 @@
         color: white;
     }
 }
-.arrow1{
+.arrow6{
     color: red;
     margin-left: 100px;
 }
 
 @media screen and (max-width:768px){
 .joy h3{
-    font-size: 13px; 
+    font-size: 25px; 
+    margin-left: -0px;
+
 
     
 }
 .joy{
-    height: 100px;
+    height: 200px;
     background-position: center;
     
 
+}
+
+.joy .arrow6{
+    margin-left: 10px;
 }
 
 

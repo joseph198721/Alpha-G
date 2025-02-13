@@ -1,5 +1,5 @@
 
-.new {
+.jat {
   margin-top: 40px;
   text-align: center;
 }
@@ -18,7 +18,7 @@
     width: 194px;
 }
 
-.even .val1, .even .valt{
+.eve4 .val1, .eve4 .valt{
     padding: 15px  ;
 }
 
@@ -32,7 +32,7 @@
     font-size: 12px;
 }
 
-.even{
+.eve4{
     /* background-color: yellow; */
     width: 556px;   
     display: flex;
@@ -59,38 +59,46 @@
     color: red;
 }
 
-.event-card{ 
-    /* margin-right: 30px; */
+.event-card2{ 
+    
     margin-left: 80px;
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
 
-.event-row{
+.events-row{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 @media screen and (max-width: 768px){
-.new{
+.jat{
     h3{
-        font-size: 10px;
+        font-size: 25px;
     }
     p{
-        font-size: 10px;
+        font-size: 18px;
     }
+}
+.val1 img{
+    padding-top: 20px;
+    width: 300px;
+    align-items: center;
+}
+.event-card2{
+    margin-left:50px ;
 }
 
 
-.valt{
+.vallt{
     h4{
-        font-size: 10px;
+        font-size: 20px;
     }
     h5{
-        font-size: 10px;
+        font-size: 18px;
     }
 }
-.eve2{
+.eve4{
     width: 330px;
     text-align: center;
     flex-direction: column;

@@ -7,7 +7,7 @@ const Join = () => {
   return (
     <div>
       <div className='joy'>
-        <GoArrowRight className="arrow1" />
+        <GoArrowRight className="arrow6" />
          <h3>VOLUNTEER</h3>
       </div>
       

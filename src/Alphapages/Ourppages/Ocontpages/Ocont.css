@@ -32,6 +32,9 @@
     display: flex;
     align-items: center;
     gap: 30px;
+
+
+
 }@media screen and (max-width:768px){
 .con{
   display: flex;
@@ -39,12 +42,28 @@
 }
 
 .con1{
-  width: 420px;
+  width: 410px;
   margin-left: 10px;
+}
+.con1 h5{
+  font-size: 18px;
 }
 
 .con3{
-  width: 400px;
+  width: 390px;
+}
+.con3 h3{
+  font-size: 20px;
+}
+.con3 h4{
+  font-size: 18px;
+}
+.con3 p{
+  font-size: 18px;
+}
+
+.con2{
+  margin-top: 60px;
 }
 
 

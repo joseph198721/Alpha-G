@@ -17,7 +17,7 @@ const Stat = () => {
       <div className="Numb1">
         <h1>36</h1>
         <hr className="line" />
-        <h3>States in Nigeria</h3>
+        <h3 >States in Nigeria</h3>
       </div>
       <div className="Numb1">
         <h1>14</h1>

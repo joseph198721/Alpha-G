@@ -34,13 +34,13 @@
 
 @media screen and (max-width: 768px) {
 .exc1 h3{
-    font-size: 13px;
+    font-size: 25px;
     margin: 0px;
 
 
 }
 .exc1 p{
-    font-size: 10px;
+    font-size: 18px;
     /* margin: 0px; */
 }
 .exc2 {
@@ -48,13 +48,13 @@
     
 }
 .exc2 h4{
-    font-size: 13px;
+    font-size: 25px;
 }
 .exc2 h6{
-    font-size: 12px;
+    font-size: 18px;
 }
 .exc2 p{
-    font-size: 10px;
+    font-size: 20px;
 }
 .exc3{
     display: flex;

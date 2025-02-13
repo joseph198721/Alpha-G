@@ -19,7 +19,7 @@
   display: flex;
   gap: 50px;
 }
-.gou input {
+.gudd input {
   width: 455px;
   height: 36px;
   border-color: rgba(255, 0, 0, 0.678);
@@ -58,13 +58,98 @@
     display: flex;
     flex-direction: column;
   }
+  .gin{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    
+
+  }
+  .gin h3{
+    font-size: 25px;
+    margin: 0px;
+  }
+  .gin p{
+    font-size: 18px;
+    margin: 0px;
+  }
+  .gin1 h5{
+    font-size: 20px;
+    margin: 0px;
+  }
+  .gin1{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px
+    ;
+    
+  }
+  .gin1 input{
+    width: 185px;
+    height: 50px;
+    margin: 0px;
+  }
+  .gin1 select{
+    width: 190px;
+    height: 55px;
+  }
+  .gudd{
+    margin-left: 20px;
+  }
+  .gudd h5{
+    font-size: 20px;
+  }
+  .gudd input{
+    width: 400px;
+    height: 50px;
+    
+  }
+  .inpt{
+     /* width:900px ; */
+     
+  width: 455px;
+  height: 36px;
+  border-color: rgba(255, 0, 0, 0.678);
+}
+  
+
+  .gun{
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+  }
+  .mess{
+    margin-left: 20px;
+  }
+  .mess h5{
+    font-size: 20px;
+  }
+  .mess textarea{
+    width: 400px;
+  }
+
+  .boss{
+    margin-left: 20px;
+
+
+
+  }
   .bunnn img {
     width: 450px;
     height: 600px;
     margin-top: 20px;
   }
   .buno1{
-    height: 30px;
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
   }
 
 

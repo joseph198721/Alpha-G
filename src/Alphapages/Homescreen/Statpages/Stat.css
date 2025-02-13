@@ -8,6 +8,7 @@
   flex-direction: column;
   box-shadow: rgba(24, 23, 21, 0.178) 0px 3px 8px;
   padding-bottom: 10px;
+  padding-top: 10px;
 
   h1 {
     font-size: 60px;
@@ -37,17 +38,31 @@
 }
 @media screen and (max-width: 768px) {
   .Numb1 {
-    width: 20%;
+    text-align: center;
+    
+    width: 250px;
+    height: 70px;
     h1 {
       font-size: 20px;
     }
     h3 {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
   .Numbb {
     /* position: relative; */
+    display: flex;
+    gap: 10px;
     bottom: -370px;
   }
+
+
+
+
+
+
+
+
 }
+

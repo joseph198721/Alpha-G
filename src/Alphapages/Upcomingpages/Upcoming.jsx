@@ -5,7 +5,7 @@ import img from "../../Alphaimages/valentine.png";
 const Upcoming = () => {
   return (
     <div className="eve">
-      <div className="new">
+      <div className="joy1">
         <h3>UPCOMING EVENT</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -13,7 +13,7 @@ const Upcoming = () => {
         </p>
       </div>
 
-      <div className="events-row">
+      <div className="events-row1">
         <div className="event-card">
           <div className="eve2">
             <div className="val1">

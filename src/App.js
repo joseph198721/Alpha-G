@@ -25,8 +25,8 @@ function App() {
         <Route path="/Upcoming" element={<Upeventscreen />} />
         <Route path="/Contact" element={<Contactscreen />} />
         <Route path="/Project" element={<Ourpscreen />} />
-        <Route path="/Joinv" element={<Joinscreen />} />
-        <Route path="/Ggallery" element={<Ggalleryscreen />} />
+        <Route path="/joinv" element={<Joinscreen />} />
+        <Route path="/gallery" element={<Ggalleryscreen />} />
       </Routes>
 
       <Footer />
