@@ -46,13 +46,15 @@
       font-size: 20px;
     }
     h3 {
-      font-size: 12px;
+      font-size: 20px;
     }
   }
 
   .Numbb {
     /* position: relative; */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 10px;
     bottom: -370px;
   }

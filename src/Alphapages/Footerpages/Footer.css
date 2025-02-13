@@ -1,75 +1,69 @@
-.foo1{
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.foo1 {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.foo1 h1{
+.foo1 h1 {
+  color: white;
+}
+.foot {
+  background-color: black;
+  margin-top: 40px;
+  padding-top: 100px;
+}
+.foo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.foo2 input {
+  width: 553px;
+  height: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* margin-top: 50px; */
+  /* margin-block: 30px; */
+  /* margin-bottom: 50px; */
+}
+
+.navbar1 {
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  a {
     color: white;
-}
-.foot{
-    background-color: black;
-    margin-top: 40px;
-    padding-top: 100px;
-}
-.foo2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 50px;
-}
-.foo2 input{
-    width: 553px;
-    height: 40px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+  }
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* margin-top: 50px; */
-    /* margin-block: 30px; */
-    /* margin-bottom: 50px; */
-    }
-    
-.navbar1{
-    /* background-color: green; */
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    
 
-      a{
-        color: white;
-        text-decoration: none;
-
-    }
-    a:hover{
-        color: red;
-    }
+.lin1 {
+  border-color: red;
+  /* margin-top: 100px; */
 }
-
-.icons{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
-.lin1{
-    border-color: red;
-    /* margin-top: 100px; */
-}
-.copy{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-.logo11{
-    display: flex;
-    align-items: center;
-    gap: 70px;
+.logo11 {
+  display: flex;
+  align-items: center;
+  gap: 70px;
 }
 .logo12{
     display: flex;
@@ -77,89 +71,79 @@
     justify-content: space-evenly;
 }
 
-
-
-
-
-
-
-@media screen and (max-width:768px){
-    .foot{
-        padding-top: 50px;
-    }
-.foo1{
-    
-    h1{
-        font-size: 30px;
-    }
+.logo12 .icons a{
+    margin-right: 10px;
 }
-.foo2{
-    input{
-        width: 200px;
-        height: 30px;
-        font-size: 20px;
+
+@media screen and (max-width: 768px) {
+  .foot {
+    /* padding-top: 50px; */
+  }
+  .foo1 {
+    h1 {
+      font-size: 30px;
     }
-}
-.logo{
-  
-    
-    img{ 
-        width: 150px;
+  }
+  .foo2 {
+    input {
+      width: 200px;
+      height: 30px;
+      font-size: 20px;
     }
+  }
+  .logo {
+    margin-bottom: 20px;
+
+    img {
+      width: 200px;
+    }
+  }
+  .icons {
+    img {
+      width: 30px;
+      display: flex;
+      gap: 5px;
+    }
+  }
+  .logo12{
+    display: block;
 }
+
 .icons{
-    padding-bottom: 10px;
-  
-  
-    
-    img{
-        width: 20px;
-        display: flex;
-        gap: 5px;
-
-        
-    }
-   
+    display: flex !important;
+    justify-content: center;
 }
-.logo12{
+
+
+
+  .logo11 {
     display: flex;
-    align-items: center;
     flex-direction: column;
-}
+    align-items: start;
+    margin-left: 10px;
 
-.logo11{
-    display: flex;
-    align-items: center;
     gap: 10px;
-}
-.navbar1{
+  }
+  .navbar1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
-    display: flex;
-    gap: 10px;
-    
-    
-    a{
-        font-size: 10px;
-        
-        
+    a {
+      font-size: 18px;
     }
-}
-.foo{
+  }
+  .foo {
     width: 90px;
     height: 35px;
     font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
+  }
+  .copy{
+    span{
+        color: rgb(241, 236, 236);
+    }
+  }
 
 
 
 }
-

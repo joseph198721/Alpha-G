@@ -81,7 +81,8 @@ const Footer = () => {
       </div>
       <hr className="lin1" />
       <div className="copy">
-        <img src={cpy} alt="" />
+        <span>&copy;AlphaGalleon 2024.All Right Reserve</span>
+        {/* <img src={cpy} alt="" /> */}
       </div>
     </div>
   );
