@@ -24,6 +24,7 @@
 }
 
 .valt p{
+    text-align: start;
     margin: 0px;
     width: 294px;
     font-size: 12px;
@@ -83,6 +84,7 @@
 }
 .joy1 p{
     /* background-color: yellow; */
+
     font-size: 18px;
     margin: 0px;
 }

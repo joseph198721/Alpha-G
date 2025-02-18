@@ -27,6 +27,12 @@
     h4{
         color:red;
     }
+
+    p{
+      text-align: start;
+    }
+
+
 }
 .con{
     display: flex;

@@ -34,9 +34,9 @@ const Header = () => {
   ];
 
   return (
-    <div className="logo1">
+    <div className="logo1 fixed-top">
       <img src={img} alt="" />
-      <div className="navbar">
+      <div className="navbar ">
         {links.map((link) => (
           <a href={link.route}>{link.name}</a>
         ))}
@@ -47,7 +47,9 @@ const Header = () => {
       {isOpen ? (
         <div className="sidebar">
           {links.map((link) => (
-            <a href={link.route}>{link.name}</a>
+            <a className="sidebar-link" href={link.route}>
+              {link.name}
+            </a>
           ))}
         </div>
       ) : (

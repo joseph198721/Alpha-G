@@ -5,7 +5,7 @@ import img1 from "../../Alphaimages/facebook.png"
 import img2 from "../../Alphaimages/instagram.png"
 import img3 from "../../Alphaimages/linkedin.png"
 import img4 from "../../Alphaimages/whatsapp.png"
-import cpy from "../../Alphaimages/copyright.png"
+
 
 const Footer = () => {
   return (
@@ -82,7 +82,7 @@ const Footer = () => {
       <hr className="lin1" />
       <div className="copy">
         <span>&copy;AlphaGalleon 2024.All Right Reserve</span>
-        {/* <img src={cpy} alt="" /> */}
+        
       </div>
     </div>
   );

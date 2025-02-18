@@ -1,85 +1,128 @@
-.pics1{
-    background-color: yellow;
+/* .slid1 img{
     background-size: cover;
-    background-image: url("../../../Alphaimages/2149452704.jpg");
-    overflow: hidden;
     width: 100%;
-    height: 800px;
-    position: absolute;
-}
-
-.htext{
-    /* background-color: red; */
-    color: white;
-    width: 50%;
-    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+/* 
+.slid1 {
+     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    span{
-        color: yellow;
-    }
-
-
-    P{
-        text-align: center;
-    }
-
-
 }
-button {
-  background-color:white;
+ */
+
+
+span {
+  color: yellow;
+}
+
+P {
+  text-align: center;
+}
+
+.over{
+  background-color: white;
   color: red;
   width: 140px;
   height: 40px;
   outline: none;
   border: none;
-  
 }
 
-button:hover {
+.over :hover {
   background-color: red;
   cursor: pointer;
   color: white;
 }
 
-
-
-.overlay{
-    background-color: rgba(14, 12, 12, 0.637);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 20px;
-    height: 100%;
-    width: 100%;
+/* .text-overlay .span {
+  color: yellow;
 }
-@media screen and (max-width:768px) {
-    .pics1{
-        background-position: center;
-        height: 400px;
-        /* position: absolute; */
-    }
-    .htext{
-        /* background-color: red; */
-        width: 100%;
-        text-align: center;
-       
-        h1{
-            font-size: 25px;
-        }
-        p{
-            font-size: 15px;
-            width: 70%;
+  */
 
-        }
-        
-    }
-    button{
-        width: 150px;
-        height: 40px;
-        font-size: 15px;
 
+
+
+
+
+
+  
+.slide-container {
+  position: relative;
+  text-align: center;
+  margin-top: 70px;
+  overflow-x: hidden;
+
+  
+ 
+}
+
+.main-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text-overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .pics1 {
+    overflow: hidden;
+    width: 100%;
+    background-position: center;
+    height: 400px;
+    /* position: absolute; */
+  }
+  .htext {
+    /* background-color: red; */
+    width: 100%;
+    /* text-align: center; */
+
+    h1 {
+      font-size: 25px;
     }
-    
+    p {
+      font-size: 15px;
+      width: 70%;
+    }
+  }
+  button {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+  }
 }

@@ -9,6 +9,7 @@
   box-shadow: rgba(24, 23, 21, 0.178) 0px 3px 8px;
   padding-bottom: 10px;
   padding-top: 10px;
+  
 
   h1 {
     font-size: 60px;
@@ -32,13 +33,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  bottom: -750px;
+  /* bottom: -750px */
 }
 @media screen and (max-width: 768px) {
   .Numb1 {
     text-align: center;
+    padding: 40px 20px 40px 20px;
     
     width: 250px;
     height: 70px;
@@ -51,12 +53,12 @@
   }
 
   .Numbb {
-    /* position: relative; */
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    bottom: -370px;
+    /* bottom: -370px; */
   }
 
 

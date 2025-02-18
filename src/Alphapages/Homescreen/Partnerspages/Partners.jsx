@@ -1,7 +1,7 @@
 import React from "react";
 import "./Partners.css";
 import { GoArrowRight } from "react-icons/go";
-import img from "../../../Alphaimages/logo sponsors.png"
+
 
 
 const Partners = () => {
@@ -15,7 +15,7 @@ const Partners = () => {
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
       <div className="sponj">
-        <img src={img} alt="" />
+        {/* <img src={img} alt="" /> */}
       </div>
     </div>
   );

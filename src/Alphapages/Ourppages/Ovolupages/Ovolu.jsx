@@ -10,7 +10,7 @@ const Ovolu = () => {
         commodi, illo nemo magni quas <br />
         cum aut explicabo enim illum?
       </p>
-      <button>Join Us</button>
+      <button className='onne'>Join Us</button>
     </div>
   );
 }

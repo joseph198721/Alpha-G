@@ -18,15 +18,35 @@
     color: red;
   }
 }
+.abt2 p{
+  text-align: start;
+}
+
+
+
+
 .abtr {
   /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.bun2 {
+.bun2{
+  background-color: white;
+  color: red;
+  width: 140px;
+  height: 40px;
+  outline: none;
+  border: none;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.bun2 :hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
 
 @media screen and (max-width: 768px) {
   .abt1 img {

@@ -37,6 +37,7 @@
   margin: 0px;
 }
 .new5 p {
+  text-align: start;
   margin: 0px;
 }
 
@@ -46,9 +47,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.butt1{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ .butt1 {
+  background-color:white;
+  color: red;
+  width: 140px;
+  height: 40px;
+  outline-color: black;
+border:1px solid black;
+  
 }
+
+.butt1:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+
 
 @media screen and (max-width:768px){
 .new1{

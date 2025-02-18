@@ -2,10 +2,11 @@ import React from 'react'
 import "./Hero.css"
 
 
+
 const Hero = () => {
   return (
-    <div className="pics1">
-      <div className="overlay">
+    <div className="pic1">
+      {/* <div className="overlay">
         <div className="htext">
           <h1>
             WELCOME TO <span>ALPHA</span> GALLEON
@@ -17,7 +18,7 @@ const Hero = () => {
           </p>
           <button>Make a Donation</button>
         </div>
-      </div>
+      </div> */}
       
     </div>
   );

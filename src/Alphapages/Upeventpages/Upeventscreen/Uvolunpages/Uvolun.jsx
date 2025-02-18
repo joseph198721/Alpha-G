@@ -10,7 +10,7 @@ const Uvolun = () => {
         commodi, illo nemo magni quas <br />
         cum aut explicabo enim illum?
       </p>
-      <button>Join Us</button>
+      <button className='voll'>Join Us</button>
     </div>
   );
 }

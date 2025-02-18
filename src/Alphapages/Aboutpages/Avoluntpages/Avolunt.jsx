@@ -10,7 +10,7 @@ const Avolunt = () => {
         commodi, illo nemo magni quas <br />
         cum aut explicabo enim illum?
       </p>
-      <button>Join Us</button>
+      <button className='voou'>Join Us</button>
     </div>
   );
 }

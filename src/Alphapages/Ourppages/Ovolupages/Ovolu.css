@@ -17,6 +17,36 @@
 .one h1{
     margin: 0px;
 }
+ .onne {
+  background-color:white;
+  color: red;
+  width: 140px;
+  height: 40px;
+  outline-color: black;
+border: black;
+  
+}
+
+.onne:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     .one h1 {
