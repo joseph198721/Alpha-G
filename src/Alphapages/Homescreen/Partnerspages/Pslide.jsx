@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 import "./Partners.css"
-import satt1 from "../../../Alphaimages/logo glo.png"
+import satt1 from "../../../Alphaimages/Alphalogo1.png"
 import satt2 from "../../../Alphaimages/alpha logo.png"
 import satt3 from "../../../Alphaimages/mtn-logo 5.png"
 import satt4 from "../../../Alphaimages/Alphalogo1.png"

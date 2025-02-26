@@ -12,7 +12,7 @@ const News = () => {
       <div className="new1">
         <h3>OUR LASTEST NEWS</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
           perspiciatis beatae pariatur{" "}
         </p>
       </div>

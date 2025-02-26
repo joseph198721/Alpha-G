@@ -58,13 +58,14 @@ border: black;
   .picsholder{
     /* margin-right: 10px; */
     img{
+      margin-left: 10px;
       width: 95%;
     }
 
   }
   .gall1{
-    /* padding-left: 10px; */
-    width: 100%;
+    margin-left: 10px;
+    width: 85%;
   h3{
     font-size: 25px;
   }

@@ -68,7 +68,7 @@ border: black;
 .navbar1 {
   /* background-color: green; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 30px;
 
   a {
@@ -136,7 +136,7 @@ border: black;
   }
   .icons {
     img {
-      width: 20px;
+      width: 40px;
       display: flex;
       gap: 5px;
     }
@@ -147,7 +147,7 @@ border: black;
 
 .icons{
     display: flex !important;
-    justify-content: center;
+    justify-content: end;
 }
 
 
@@ -179,6 +179,7 @@ border: black;
         color: rgb(241, 236, 236);
     }
   }
+ 
 
 
 
