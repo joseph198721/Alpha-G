@@ -5,16 +5,22 @@
     align-items: center;
     justify-content: space-around;
     padding: 20px 0px 20px 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
    
 }
+
+
+* {
+  overflow-x: hidden;
+}
+
 .navbar{
     /* background-color: green; */
     display: flex;
     align-items: center;
     gap: 30px;
-    /* margin-bottom: 90px; */
+
     
 
     a{
@@ -38,7 +44,6 @@
     flex-direction: column;
     gap: 5px;
     
-    background-color: red;
 }
 .sidebar a{
     color: black;
@@ -51,6 +56,7 @@
 
 .fixed-top{
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -67,7 +73,7 @@
 
     }
     .logo1{
-        overflow: hidden;
+        /* overflow: hidden; */
         width: 100%;
         
         img{
